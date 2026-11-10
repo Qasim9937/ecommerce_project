@@ -1,0 +1,45 @@
+.nav-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#navbar{
+    border-radius: 15px;
+    background: white;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: .5px solid rgb(207, 205, 205);
+    /* box-shadow: 0 0 5px grey; */
+    padding: 15px 20px;
+    margin: 25px auto 0;
+}
+
+.navlink{
+    text-decoration: none;
+    color:black
+}
+
+.navlink.active{
+    color: teal
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    #nav-links, .contact-us{
+        display: none !important;
+    }
+}
+

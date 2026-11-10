@@ -1,0 +1,36 @@
+.orange{
+    color: orange
+}
+
+#hero{
+    max-width: 60vw;
+    padding: 50px 30px 10px,;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+
+#hero-title{
+    font-size: 3.05rem;
+    font-family: 'Clash Display', sans-serif;
+    line-height: 1.15;
+;
+}
+
+
+.subheading{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    width: 82%;
+    line-height: 1.5;
+}
+
+.teal{
+    background: teal;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+}
